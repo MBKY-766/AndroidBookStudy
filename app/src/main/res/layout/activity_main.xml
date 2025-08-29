@@ -18,4 +18,9 @@
         android:layout_height="wrap_content"
         android:text="系统默认Button"/>
 
+    <com.example.bookstudy.widget.CustomButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义Button"
+        android:background="#ffff00"/>
 </LinearLayout>
