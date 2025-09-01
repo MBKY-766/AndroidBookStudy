@@ -14,13 +14,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
 <!--        <activity-->
-<!--            android:name=".CountActivity"-->
+<!--            android:name=".PieAnimationActivity"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name=".CountActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name=".CustomTabActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".CountActivity"
+            android:name=".PieAnimationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
