@@ -6,10 +6,7 @@ import android.os.Looper
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class CountActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var btn_count: Button

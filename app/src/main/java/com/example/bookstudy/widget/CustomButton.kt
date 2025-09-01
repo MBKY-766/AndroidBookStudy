@@ -2,7 +2,6 @@ package com.example.bookstudy.widget
 
 import android.content.Context
 import android.util.AttributeSet
-import android.widget.Button
 import com.example.bookstudy.R
 
 class CustomButton : androidx.appcompat.widget.AppCompatButton {
