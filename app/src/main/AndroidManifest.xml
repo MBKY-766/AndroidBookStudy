@@ -13,6 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
+<!--        <activity -->
+<!--            android:name="bookstudy09.RecyclerStaggeredActivity"-->
+<!--            android:exported="false">-->
+<!--        </activity>-->
 <!--        <activity-->
 <!--            android:name="bookstudy09.RecyclerCombineActivity"-->
 <!--            android:exported="false" />-->
@@ -44,7 +48,7 @@
         <!-- android:name=".CustomTabActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name="bookstudy09.RecyclerCombineActivity"
+            android:name="bookstudy09.RecyclerStaggeredActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
