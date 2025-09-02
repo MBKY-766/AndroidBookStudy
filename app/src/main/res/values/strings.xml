@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BookStudy</string>
+    <string name="book_name">Android Studio开发实战\n从零基础到App上线</string>
+
 </resources>
