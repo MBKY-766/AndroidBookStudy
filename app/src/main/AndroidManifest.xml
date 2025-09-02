@@ -14,8 +14,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
 <!--        <activity-->
-<!--            android:name="bookstudy09.TabButtonActivity"-->
+<!--            android:name="bookstudy09.OverflowMenuActivity"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name="bookstudy09.TabButtonActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name=".BannerPagerActivity" -->
         <!-- android:exported="false" /> -->
@@ -29,7 +32,7 @@
         <!-- android:name=".CustomTabActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name="bookstudy09.TabButtonActivity"
+            android:name="bookstudy09.OverflowMenuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
