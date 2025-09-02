@@ -14,8 +14,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
 <!--        <activity-->
-<!--            android:name="bookstudy09.RecyclerLinearActivity"-->
+<!--            android:name="bookstudy09.RecyclerCombineActivity"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name="bookstudy09.RecyclerGridActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name="bookstudy09.RecyclerLinearActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name="bookstudy09.TabLayoutActivity" -->
         <!-- android:exported="false" /> -->
@@ -38,7 +44,7 @@
         <!-- android:name=".CustomTabActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name="bookstudy09.RecyclerLinearActivity"
+            android:name="bookstudy09.RecyclerCombineActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
