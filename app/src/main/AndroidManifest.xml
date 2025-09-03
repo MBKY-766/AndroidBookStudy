@@ -13,9 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
-<!--        <activity-->
-<!--            android:name="bookstudy09.DepartmentStoreActivity"-->
-<!--            android:exported="false" />-->
+        <activity
+            android:name="bookstudy11.KeySoftActivity"
+            android:exported="false" />
+        <!-- <activity -->
+        <!-- android:name="bookstudy09.DepartmentStoreActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name="bookstudy09.RecyclerStaggeredActivity" -->
         <!-- android:exported="false"> -->

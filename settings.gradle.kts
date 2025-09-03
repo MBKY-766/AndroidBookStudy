@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "BookStudy"
 include(":app")
 
+include(":bookstudy11")
