@@ -9,8 +9,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
 <!--        <activity-->
-<!--            android:name=".SignatureActivity"-->
+<!--            android:name=".SlideDirectionActivity"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name=".SignatureActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name=".TouchMultipleActivity" -->
         <!-- android:exported="false" /> -->
@@ -27,7 +30,7 @@
         <!-- android:name=".keySoftActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".SignatureActivity"
+            android:name=".SlideDirectionActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
