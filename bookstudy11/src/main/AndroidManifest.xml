@@ -9,8 +9,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
 <!--        <activity-->
-<!--            android:name=".EventInterceptActivity"-->
+<!--            android:name=".SignatureActivity"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name=".TouchMultipleActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".TouchSingleActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".EventInterceptActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name=".EventDispatchActivity" -->
         <!-- android:exported="false" /> -->
@@ -18,7 +27,7 @@
         <!-- android:name=".keySoftActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".EventInterceptActivity"
+            android:name=".SignatureActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
