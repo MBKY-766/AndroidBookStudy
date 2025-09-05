@@ -9,8 +9,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
 <!--        <activity-->
-<!--            android:name=".ScaleRotateActivity"-->
+<!--            android:name=".MeituActivity"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name=".PullRefreshActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".DrawerLayoutActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".ScaleRotateActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name=".SlideDirectionActivity" -->
         <!-- android:exported="false" /> -->
@@ -33,7 +42,7 @@
         <!-- android:name=".keySoftActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".ScaleRotateActivity"
+            android:name=".MeituActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
