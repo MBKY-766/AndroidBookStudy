@@ -23,3 +23,4 @@ rootProject.name = "BookStudy"
 include(":app")
 
 include(":bookstudy11")
+include(":bookstudy12")
