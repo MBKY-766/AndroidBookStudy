@@ -59,7 +59,7 @@ public class GifActivity extends AppCompatActivity {
         gv_gif.setMovie(movie);//设置电影对象
     }
 
-    //利用ImageDecoder结合动画图形播放动画
+    //利用ImageDecoder结合动画图形播放动画--最简单
     @RequiresApi(api = Build.VERSION_CODES.P)
     private void showAnimateDrawable(int imageId) {
         try {
@@ -107,7 +107,7 @@ public class GifActivity extends AppCompatActivity {
             for (GifImage.GifFrame frame : frameList) {
                 //把Bitmap位图对象转换为Drawable图形格式
                 BitmapDrawable drawable = new BitmapDrawable(getResources(), frame.image);
-                //给帧动画添加指定图形，以及该帧都播放延迟
+                //给帧动画添加指定图形，以及该帧的播放延迟
                 ad_gif.addFrame(drawable, frame.delay);
             }
             //设置帧动画是否只播放一次，false表示循环播放
