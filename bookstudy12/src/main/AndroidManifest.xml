@@ -21,7 +21,7 @@
         <!-- android:name=".FrameAnimActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".RewardGiftActivity"
+            android:name=".DrawLayerActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

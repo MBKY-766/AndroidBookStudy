@@ -20,14 +20,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class RewardView extends RelativeLayout{
+public class RewardView extends RelativeLayout {
     private final static String TAG = "RewardView";
     private Context mContext; // 声明一个上下文对象
     private int mLayoutWidth, mLayoutHeight; // 声明当前视图的宽度和高度
     private LayoutParams mLayoutParams; // 声明打赏礼物的布局参数
     private List<Drawable> mDrawableList = new ArrayList<>(); // 打赏礼物的图形列表
     private int dip_35;
-    private int[] mDrawableArray = new int[] {R.drawable.gift01, R.drawable.gift02,
+    private int[] mDrawableArray = new int[]{R.drawable.gift01, R.drawable.gift02,
             R.drawable.gift03, R.drawable.gift04, R.drawable.gift05, R.drawable.gift06};
 
     public RewardView(Context context) {
@@ -55,7 +55,7 @@ public class RewardView extends RelativeLayout{
     }
 
     // 添加打赏礼物的视图并播放打赏动画
-    public void addGiftView(){
+    public void addGiftView() {
         int pos = new Random().nextInt(mDrawableList.size());
         ImageView imageView = new ImageView(mContext);
         imageView.setImageDrawable(mDrawableList.get(pos)); // 设置图像视图的图像图形
@@ -63,7 +63,7 @@ public class RewardView extends RelativeLayout{
         addView(imageView); // 添加打赏礼物的图像视图
         // 创建礼物的缩放动画（补间动画方式）
         ScaleAnimation scaleAnim = new ScaleAnimation(0.2f, 1.0f, 0.2f, 1.0f,
-                Animation.RELATIVE_TO_SELF, 0.5f,Animation.RELATIVE_TO_SELF, 1.0f);
+                Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 1.0f);
         scaleAnim.setDuration(500); // 设置动画的播放时长
         imageView.startAnimation(scaleAnim); // 启动礼物的缩放动画
         playBezierAnimation(imageView); // 播放礼物的漂移动画（贝塞尔曲线方式）
@@ -73,9 +73,9 @@ public class RewardView extends RelativeLayout{
     private void playBezierAnimation(View giftView) {
         // 初始化一个贝塞尔计算器
         BezierEvaluator evaluator = new BezierEvaluator(getPoint(), getPoint());
-        PointF beginPoint = new PointF(mLayoutWidth/2 - dip_35/2, mLayoutHeight - dip_35/2);
-        float endX = (float) (Math.random()*mLayoutWidth - dip_35/2);
-        float endY = (float) (Math.random()*10);
+        PointF beginPoint = new PointF(mLayoutWidth / 2 - dip_35 / 2, mLayoutHeight - dip_35 / 2);
+        float endX = (float) (Math.random() * mLayoutWidth - dip_35 / 2);
+        float endY = (float) (Math.random() * 10);
         PointF endPoint = new PointF(endX, endY);
         // 创建一个属性动画
         ValueAnimator animator = ValueAnimator.ofObject(evaluator, beginPoint, endPoint);
@@ -95,17 +95,17 @@ public class RewardView extends RelativeLayout{
     // 生成随机控制点
     private PointF getPoint() {
         PointF point = new PointF();
-        point.x = (float) (Math.random()*mLayoutWidth - dip_35/2);
-        point.y = (float) (Math.random()*mLayoutHeight/5);
-        Log.d(TAG, "point.x="+point.x+", point.y="+point.y);
+        point.x = (float) (Math.random() * mLayoutWidth - dip_35 / 2);
+        point.y = (float) (Math.random() * mLayoutHeight / 5);
+        Log.d(TAG, "point.x=" + point.x + ", point.y=" + point.y);
         return point;
     }
 
     // 贝塞尔估值器，根据输入的两个坐标点，计算二阶贝塞尔曲线上的对应坐标
     public static class BezierEvaluator implements TypeEvaluator<PointF> {
         private PointF mPoint1, mPoint2;
-        
-        public BezierEvaluator(PointF point1, PointF point2){
+
+        public BezierEvaluator(PointF point1, PointF point2) {
             mPoint1 = point1;
             mPoint2 = point2;
         }
