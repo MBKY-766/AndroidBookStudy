@@ -9,8 +9,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
 <!--        <activity-->
-<!--            android:name=".FadeAnimActivity"-->
+<!--            android:name=".TweenAnimActivity"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name=".FadeAnimActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name=".GifActivity" -->
         <!-- android:exported="false" /> -->
@@ -18,7 +21,7 @@
         <!-- android:name=".FrameAnimActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".FadeAnimActivity"
+            android:name=".RewardGiftActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
