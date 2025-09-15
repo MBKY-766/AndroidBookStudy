@@ -9,8 +9,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
 <!--        <activity-->
-<!--            android:name=".ScrollerActivity"-->
+<!--            android:name=".YingjiActivity"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name=".ScrollerActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name=".ShutterActivity" -->
         <!-- android:exported="false" /> -->
@@ -27,7 +30,7 @@
         <!-- android:name=".FrameAnimActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".ScrollerActivity"
+            android:name=".YingjiActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
