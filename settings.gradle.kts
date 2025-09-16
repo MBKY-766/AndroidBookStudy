@@ -24,3 +24,4 @@ include(":app")
 
 include(":bookstudy11")
 include(":bookstudy12")
+include(":bookstudy13")
