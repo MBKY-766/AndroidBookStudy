@@ -32,6 +32,7 @@ android {
 }
 
 dependencies {
+    implementation("com.google.code.gson:gson:2.9.0")
 
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
