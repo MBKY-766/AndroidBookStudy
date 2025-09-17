@@ -8,14 +8,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
-        <activity
-            android:name=".ThreadUiActivity"
-            android:exported="false" />
-        <!-- <activity -->
+<!--        <activity-->
+<!--            android:name=".WorkManagerActivity"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".ThreadUiActivity"-->
+<!--            android:exported="false" /> &lt;!&ndash; <activity &ndash;&gt;-->
         <!-- android:name=".HandlerMessageActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".HandlerMessageActivity"
+            android:name=".WorkManagerActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

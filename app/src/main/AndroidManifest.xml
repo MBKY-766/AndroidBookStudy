@@ -13,9 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy">
-        <activity
-            android:name=".TweenAnimActivity"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".TweenAnimActivity"-->
+<!--            android:exported="false" />-->
         <!-- <activity -->
         <!-- android:name="bookstudy11.KeySoftActivity" -->
         <!-- android:exported="false" /> -->
@@ -57,7 +57,7 @@
         <!-- android:name=".CustomTabActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".BannerPagerActivity"
+            android:name="bookstudy09.DepartmentStoreActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
