@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,10 +10,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookStudy"
-        android:usesCleartextTraffic="true" >
-<!--        <activity-->
-<!--            android:name=".OkhttpCallActivity"-->
-<!--            android:exported="false" />-->
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".GroupChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FriendChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GroupListFragment"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.FriendListFragment"
+            android:exported="false" />
+        <activity
+            android:name=".WeChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeLoginActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".OkhttpCallActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name=".JsonConvertActivity" -->
         <!-- android:exported="false" /> -->
@@ -27,7 +44,7 @@
         <!-- android:exported="false" /> -->
         <activity
             android:name=".OkhttpCallActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

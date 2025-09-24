@@ -1,13 +1,14 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
 }
 
 android {
-    namespace = "com.example.bookstudy13"
+    namespace = "com.example.firstline3"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.bookstudy13"
+        applicationId = "com.example.firstline3"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -29,18 +30,18 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+    kotlinOptions {
+        jvmTarget = "11"
+    }
 }
 
 dependencies {
-    implementation("com.google.code.gson:gson:2.9.0")
-    implementation("com.squareup.okhttp3:okhttp:4.9.3")
-    implementation("com.github.bumptech.glide:glide:4.13.1")
 
+    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.work.runtime)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
